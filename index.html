@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- For using Bootstrap we need to include 3 links inside the head section of html.-->
+    <title>Photo Gallery</title>   
+</head>
+
+<body>
+<ul class="menu">
+    <li class="links"><a href="#home">Home</a></li>
+    <li class="links"><a href="#gridview">Grid View</a></li>
+    <li class="links"><a href="#slideview">Slide View</a></li>
+    </ul>   
+ <section id="home">
+ <img src="happy.jpg">
+    </section>
+    <br><br>
+    <section id="gridview">
+    <h2>Grid Gallery</h2>
+    <div class="row">
+     <img class="img" src="goa.jpg">   
+      <img class="img" src="gang.jpg">    
+       <img class="img" src="jaipur.jpg"> 
+         <img class="img" src="family%20photo.jpg"> 
+        <br> <br>
+        </div>
+        <div class="row">
+     <img class="img" src="img.jpg">   
+      <img class="img" src="now%20img.jpg">    
+       <img class="img" src="IMg2.jpg"> 
+         <img class="img" src="award.jpg"> 
+        <br> <br>
+        </div>
+    </section>
+    <br> <br>
+    <section id="slideview">
+    <h2>Slideview</h2>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+        <div class="item active">
+            <center>
+            <img class="img-responsive"  src="goa.jpg">
+                <div class="carousel-content">
+                    <h2>My first foreign trip</h2>
+                </div>
+            </center>
+            </div>
+            <div class="item">
+             <center>
+              <img class="img-responsive"  src="gang.jpg"> <div class="carousel-content">
+                    <h2>My school gang</h2>
+                </div>  
+                </center>
+            </div>
+         <div class="item">
+             <center>
+              <img class="img-responsive"  src="jaipur.jpg"> <div class="carousel-content">
+                    <h2>Jaipur 2019</h2>
+                </div>  
+                </center>
+            </div>
+            <div class="item">
+             <center>
+              <img class="img-responsive"  src="family%20photo.jpg"> <div class="carousel-content">
+                    <h2>At my cousins wedding</h2>
+                </div>  
+                </center>
+            </div>  
+            <div class="item">
+             <center>
+              <img class="img-responsive"  src="img.jpg"> <div class="carousel-content">
+                    <h2>THEN-2016</h2>
+                </div>  
+                </center>
+            </div>
+            <div class="item">
+             <center>
+              <img class="img-responsive"  src="now%20img.jpg"> <div class="carousel-content">
+                    <h2>NOW-2021</h2>
+                </div>  
+                </center>
+            </div> 
+            <div class="item">
+             <center>
+              <img class="img-responsive"  src="IMg2.jpg"> <div class="carousel-content">
+                    <h2>Men in blue</h2>
+                </div>  
+                </center>
+            </div>
+            <div class="item">
+             <center>
+              <img class="img-responsive"  src="award.jpg"> <div class="carousel-content">
+                    <h2>My first Brainobrain Trophy</h2>
+                </div>  
+                </center>
+            </div>  
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>   
+        </div>
+    </section>
+</body>
+</html>
